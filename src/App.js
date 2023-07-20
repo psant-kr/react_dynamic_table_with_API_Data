@@ -25,7 +25,8 @@ const App = () => {
   }, []);
 
   return (
-    <>
+
+    <div className='table'>
       <table>
         <thead>
           <tr>
@@ -40,7 +41,8 @@ const App = () => {
         </tbody>
 
       </table>
-    </>
+    </div>
+
   )
 }
 
